@@ -29,4 +29,3 @@ def request_place_storydata(place):
     except:
         story = mjo.return_fail_sentence()
     return story
-
