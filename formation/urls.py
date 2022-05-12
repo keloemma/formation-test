@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+import testapp.views as tv
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', tv.index, name="index"),
+    path('request/', tv.search_data, name="request"),
 ]
