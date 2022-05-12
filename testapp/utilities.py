@@ -1,5 +1,6 @@
 import requests
 
+
 def wiki_request_place_name(place):
     """Cette fonction passe une requête GET à wikipedia et renvoi un json
 
