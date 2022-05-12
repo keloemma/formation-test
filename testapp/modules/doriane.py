@@ -21,7 +21,6 @@ def osm_request(parsed_text):
     # tip 1 : request est un objet de classe
     request = requests.get("".join(url))
     # tip 2 : json() est une méthode statique de la classe créée par requests
-    print(request.json())
     return request.json()
 
 
