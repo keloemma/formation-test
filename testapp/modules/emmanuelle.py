@@ -29,3 +29,5 @@ def request_place_storydata(place):
     except:
         story = mjo.return_fail_sentence()
     return story
+
+dico = {"query": {"pages": {"123": {"extract" : "valeur qu'on recherche"}}}}
