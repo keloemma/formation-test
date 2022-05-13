@@ -1,8 +1,0 @@
-https://github.com/keloemma/formation-test.git
-
-Git init
-git remote add origin link
-git pull origin
-
-
-pipenv shell
