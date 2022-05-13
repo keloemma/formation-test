@@ -18,6 +18,3 @@ def test_pt(monkeypatch):
 def test_inte():
     assert jfile.parse_text("mon, test; est: bon bonjour je coucou ") == "mon test est bonjour coucou"
 
-def test_fonctionnel():
-
-    
