@@ -6,3 +6,11 @@ git pull origin
 
 
 pipenv shell
+
+commit
+pull
+push request
+
+pytest --cov=testapp testapp/modules
+
+
