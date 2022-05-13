@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "==7.1.2"
+pytest-cov = "==3.0.0"
+requests = "==2.27.1"
+stop-words = "==2018.7.23"
+Django = "==4.0.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
